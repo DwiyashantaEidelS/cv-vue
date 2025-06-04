@@ -1,12 +1,12 @@
 <script setup>
-import foto from '@/assets/foto.jpg';  // Pastikan path benar ya
+import foto from '@/assets/foto.jpg';  
 </script>
 
 <template>
   <div class="cv-wrapper">
     <main class="main-content">
 
-      <!-- Konten sidebar di sini, tapi bukan aside lagi -->
+      <!-- Konten sidebar -->
       <div class="profile-header">
         <img :src="foto" alt="Foto Profil Dwiyashanta Eidel Safira" class="profile-photo" />
         <h1 class="name">Dwiyashanta Eidel Safira</h1>
